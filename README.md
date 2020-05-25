@@ -8,11 +8,15 @@ An django application to play tic-tac-toe. This was build while learning Django 
 ``` shell
 git clone https://github.com/shreyagupta30/tic-tac-toe-django.git
 ```
-2. Get inside the actual folder
+2. Activate the virtualenv
+```shell
+source django-env/bin/activate
+```
+3. Get inside the actual folder
 ``` shell 
 cd tictactoe
 ```
-3. Run the server on localhost.
+4. Run the server on localhost.
 ``` shell 
 python manage.py runserver
 ```
